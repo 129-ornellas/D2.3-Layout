@@ -1,3 +1,10 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 90%;
+  font-weight: 400;
+  color: #293651;
+}
+
 header {
   text-align: left;
   font-family: "Montserrat", sans-serif;
@@ -21,6 +28,7 @@ header {
 a {
   text-decoration: none;
   color: white;
+  width: 40%;
 }
 
 .botao {
@@ -36,84 +44,103 @@ a {
 }
 
 .imagem {
-  margin-top: 30px;
+  margin-top: 5%;
+  text-align: center;
+  object-fit: cover;
+
+}
+
+.conteiner1 {
+  margin-inline: 33%;
+}
+
+.why {
+  font-size: 200%;
   text-align: center;
 }
 
-.why_contratar {
-  text-align: center;
-  font-size: 40px;
-  color: grey;
-  margin-right: 150px;
+.titulos_porcentos {
+  display: inline-block;
+  width: 100%;
+  margin-inline: 30%;
 }
 
-.linha_why_1 {
-  display: inline-block;
-  background-color: #00a78e;
-  border-radius: 20px;
-  width: 100px;
-  height: 5px;
-  margin-left: 37.5%;
-}
-
-.linha_why_2 {
-  display: inline-block;
-  background-color: #00a78e;
-  border-radius: 20px;
-  width: 15px;
-  height: 5px;
-}
-
-.linha_why_3 {
-  display: inline-block;
-  background-color: #00a78e;
-  border-radius: 20px;
-  width: 5px;
-  height: 5px;
+progress {
+  width: 40%;
+  accent-color: #00a78e;
+  height: 20px;
 }
 
 .texto_why {
-  text-align: center;
-  font-size: 25px;
-  margin-left: 37.5%;
-  margin-right: 37.5%;
+  font-size: 100%;
 }
 
-.titulos_why {
-  color: grey;
-  text-align: left;
-  margin-left: 37.5%;
-  margin-right: 37.5%;
+.conteiner2 {
+  background-color: rgb(245, 245, 245);
+  padding: 10% 33%;
+  margin-top: 5%;
 }
 
-.barra_porcent {
-  background-color: #d7dfdd;
-  border-radius: 13px;
-  padding: 3px;
-  width: 625px;
+.titulo {
   text-align: center;
-}
-.line1_porcent {
-  background-color: #00a78e;
-  width: 30%;
-  height: 10px;
-  border-radius: 10px;
-}
-.line2_porcent {
-}
-.line3_porcent {
-}
-.line4_porcent {
+  margin-bottom: 20%;
+  padding: 5%;
+  font-size: 200%;
 }
 
-.projetos {
+.caixas {
   text-align: center;
-  font-size: 40px;
-}
-.line_projetos {
   display: inline-block;
+}
+
+.caixas_ind {
+  background-color: white;
+  text-align: center;
+  box-shadow: 10px 10px 15px #c6c6c6;
+  border-radius: 4%;
+  margin: 20px;
+  line-height: 120%;
+  font-size: 22px;
+  padding: 6px;
+  font-size: 20px;
+}
+
+.projeto_caixa > h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner3 {
   background-color: #00a78e;
-  border-radius: 20px;
-  width: 100px;
-  height: 5px;
+  margin-top: 5%;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 2%;
+  border-radius: 15px;
+  display: inline-block 20%;
+}
+
+.conteiner3 > h1 {
+  margin: 0;
+  padding: 0%;
+}
+
+.conteiner4 {
+  background-color: rgb(255, 255, 255);
+  margin-top: 10%;
+  text-align: center;
+  /* padding: 10% 33%; */
+}
+
+.logos {
+  padding-top: 30px;
+}
+
+.template {
+  color: rgb(214, 214, 214);
+}
+
+.ancoras_end {
+  color: #293651;
 }
